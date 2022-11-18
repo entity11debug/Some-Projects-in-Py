@@ -5,8 +5,6 @@
 #C-4) EMAIL HAS TO HAVE "." IN -3 OR -4 INDEX (THAT MEANS RIGHT BEFORE THE .IN / .COM)
 #C-5) EMAIL MUST BE IN LOWER CASE
 user_email = input("Enter Email : ")
-i=0
-k=0
 if len(user_email) >=6:
   if user_email[0].isalpha():
     if "@" in user_email and user_email.count("@")==1:
